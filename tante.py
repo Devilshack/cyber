@@ -270,8 +270,7 @@ def pilih_super():
 		z = json.loads(r.text)
 		for i in z['data']:
 			id.append(i['id'])
-	os.system('clear')
-		print logo                  
+	os.system('clear')                  
 		try:
 			idlist = raw_input('\x1b[1;91m[+] \x1b[1;93mEnter File Path  \x1b[1;91m: \x1b[1;93m')
 			for line in open(idlist,'r').readlines():
